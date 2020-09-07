@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHINI-DHABA</title>
+    <style type="text/css">
+    *{
+      text-align: align-self: start;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    #Det{
+      padding-top: 10px;
+    }
+    h3,h1{
+      margin-top: 50px;
+    }
+    </style>
+  </head>
+  <body">
+    <h1>Welcome to CHINI-DHABA</h1>
+    <div>
+      <hr>
+          <h3>PLEASE SELECT YOUR DISH</h3>
+          <div class="input">
+            <select name="menulist" id="menulist"></select>
+          </div>
+          <div id = "Det">
+              <h3 style="text-align: center;">DISH DETAILS</h3>
+              <p>Short name:</p>
+              <p class="short__name"></p>
+              <p>Name :</p>
+              <p class="item_name"></p>
+              <p>Description:</p>
+              <p class="desc"></p>
+              <p>Price :</p>
+              <div class="col-9 prices">
+                  <p class="small_dish"></p>
+                  <p class="large_dish"></p>
+              </div>
+            </div>
+        </div>
+    <!-- bootstrap files  -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
